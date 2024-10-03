@@ -1,0 +1,118 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+  
+html
+{
+    box-sizing: border-box;
+    font-size: large;
+    font-family: serif;
+    background-color: #bfbfbf;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+li
+{
+    margin-left: 1ch;
+    padding-left: 3ch;
+
+    background-image: url("resources/folder.ICO");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 2ch;
+}
+
+hr
+{
+    margin: 10px;
+}
+
+.inset
+{
+    background-color: #bfbfbf;
+    border: 2px solid black;
+}
+
+.content
+{
+    max-width: 65ch;
+    min-width: 0ch;
+    overflow-wrap: break-word;
+}
+
+.header
+{
+    width: auto;
+    margin: 2px;
+    
+    background: black;
+    color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.entry
+{
+    margin-top: 3ch;
+}
+
+.button
+{
+    padding: 5px;
+    font-size: large;
+    font-family: serif;
+}
+
+.button:hover
+{
+    background-color: white;
+}
+
+.ico
+{
+    height: 2ch;
+}
+
+input, textarea
+{
+    width: 100%;
+    padding: 1ch;
+}
+
+textarea
+{
+    resize: vertical;
+}
+
+/*
+    TicTacToe CSS
+*/
+
+.game-board
+{
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px;
+    color: #bfbfbf;
+}
+
+.field
+{
+    margin: 5px;
+}
+
+.field:hover
+{
+    background-color: #00000067;
+    color: #29292900;
+}

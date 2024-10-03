@@ -1,0 +1,9 @@
+TicTacToe-Web
+=============
+
+A JS browser based game of TicTacToe against an unbeatable AI!
+Uses standard min-max-algorithm, as seen in chess but much more stupid.
+
+Originally created for an old personal blog, then seen on https://ad301.org as
+I just ripped the files from the other project. Deciced to put them in a repo
+if people want to see how it works or use it as a quickstart.
